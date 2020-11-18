@@ -1,1 +1,302 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+   margin: 0;
+   padding: 0;
+ }
+
+
+ header {
+  height: 65px;
+  width: 100%;
+  background-color:whitesmoke;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  opacity: 95%;
+}
+
+.header-left {
+  float: left;
+  
+}
+
+.logo {
+  width: 200px;
+  margin-top: 0,5px;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.menu-icon {
+  color: black;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+.fa {
+  margin-right: 5px;
+}
+* {
+  box-sizing: border-box;
+}
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+* {
+  box-sizing: border-box;
+}
+.header-right a {
+  line-height: 62px;
+  padding: 0 25px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+.active {
+  background-color:red;
+}
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+* {
+  box-sizing: border-box;
+}
+.fa {
+  margin-right: 5px;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+}
+.top-wrapper {
+  padding: 160px 0 100px 0;
+  background-image: url(turbo-10.jpg);
+  background-size: cover;
+  color: white;
+  text-align: right;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.top-wrapper .borderbox {
+  background-color: brown;
+  opacity: 85%;
+  width: 50%;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0px 10px 30px 10px;
+  line-height: normal;
+}
+.animate__fadeIn {
+  --animate-duration: 3s;
+}
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.animate__bounceInLeft, .animate__bounceInRight {
+  --animate-duration: 5s;
+}
+.top-wrapper p {
+  margin-bottom: 3px;
+}
+p {
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  opacity: 0.8;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+}
+.view {
+  background-color: #104d2d;
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.products-wrapper {
+  padding-bottom: 80px;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.products-wrapper .heading {
+  text-align: center;
+}
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.products-wrapper .section-title {
+  border-bottom: 2px solid red;
+  font-size: 28px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: red;
+  width: 100%;
+}
+.heading h2 {
+  font-weight: normal;
+}
+.coffee-catalog {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 white(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: rgb(104, 216, 250);
+}
+.product-image img {
+  width: 200px;
+}
+description {
+  color: white;
+}
+.btn {
+  padding: 12px 24px;
+  color: red;
+  opacity: 0.8;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+}
+.order {
+  background-color: blue;
+  border-radius: 50px;
+  color: red;
+}
+.clear {
+  clear: left;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.contact-form {
+  text-align: center;
+}
+.contact-form .heading {
+  text-align: center;
+}
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.section-title {
+  border-bottom: 2px solid red;
+  font-size: 28px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color:blue;
+  width: 100%;
+}
+.heading h2 {
+  font-weight: normal;
+}
+p {
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+}
+message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+.btn {
+  padding: 12px 24px;
+  color: black;
+  opacity: 0.8;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+}
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #9dd1ec;
+  display: inline-block;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: yellow (15, 15, 15, 1);
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.logo {
+  width: 160px;
+  margin-top: 20px;
+}
+footer img {
+  width: 125px;
+}
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+p {
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+}
+footer {
+  text-align: center;
+  background-image: url(turbo-movie-turbo-and-the-racing-snails.jpg);
+  background-size: cover;
+}
 
