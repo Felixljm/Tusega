@@ -1,0 +1,48 @@
+@media screen and (max-width: 1000px){
+.top-wrapper .borderbox {
+  width: 100%;
+}
+.coffee-catalog {
+  width: 50%;
+  display: block;
+  margin-bottom: 20px;
+}
+}
+@media screen and (max-width: 670px){
+.logo {
+  width: 124px;
+}
+.menu-icon {
+  display: block;
+  cursor: pointer;
+}
+.header-right {
+  display: none;
+}
+.top-wrapper {
+  text-align: center;
+  padding-top: 140px;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+.top-wrapper .borderbox {
+  width: 100%;
+}
+.top-wrapper h1 {
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.contact-form {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+.coffee-catalog {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+}
