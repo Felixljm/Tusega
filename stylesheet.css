@@ -3,21 +3,24 @@
 }
 
 body {
-  margin: 0;
-  font-family: "Lucida Grande";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color:black;
+    background-color: #fff;
 }
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
-   margin: 0;
-   padding: 0;
+html, body,            
+ul, ol, li,            
+h1, h2, h3, h4, h5, h6, p, div {            
+   margin: 0;            
+   padding: 0;            
  }
 
 
  header {
   height: 65px;
   width: 100%;
-  background-color:whitesmoke;
+  background-color:#fc6467;
   position :fixed;
   top: 0;
   z-index: 10;
@@ -26,12 +29,11 @@ h1, h2, h3, h4, h5, h6, p, div {
 
 .header-left {
   float: left;
-  
 }
 
 .logo {
-  width: 200px;
-  margin-top: 0,5px;
+  width: 80px;
+  margin-top: 0;
 }
 .container {
   max-width: 1170px;
@@ -40,7 +42,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 .menu-icon {
-  color: black;
+  color: #D2691E;
   float: right;
   font-size: 25px;
   padding: 21px 0;
@@ -62,13 +64,13 @@ h1, h2, h3, h4, h5, h6, p, div {
 .header-right a {
   line-height: 62px;
   padding: 0 25px;
-  color: black;
+  color: #ffe5b6;
   display: block;
   float: left;
   transition: all 0.5s;
 }
 .active {
-  background-color:red;
+  background-color: #9fccc3;
 }
 a {
   text-decoration: none;
@@ -95,9 +97,9 @@ a {
 }
 .top-wrapper {
   padding: 160px 0 100px 0;
-  background-image: url(turbo-10.jpg);
+  background-image: url(Desain\ tanpa\ judul\ \(8\).png);
   background-size: cover;
-  color: white;
+  color: #fc6467;
   text-align: right;
 }
 * {
@@ -109,7 +111,7 @@ a {
   margin: 0 auto;
 }
 .top-wrapper .borderbox {
-  background-color: brown;
+  background-color: #ffe5b6;
   opacity: 85%;
   width: 50%;
   display: inline-block;
@@ -137,14 +139,14 @@ p {
 }
 .btn {
   padding: 12px 24px;
-  color: white;
+  color: #fc6467;
   opacity: 0.8;
   display: inline-block;
   border-radius: 4px;
   text-align: center;
 }
 .view {
-  background-color: #104d2d;
+  background-color: #ffe5b6;
   margin-top: 10px;
 }
 a {
@@ -169,11 +171,11 @@ a {
   padding-bottom: 50px;
 }
 .products-wrapper .section-title {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #9fccc3;
   font-size: 28px;
   padding-top: 15px;
   padding-bottom: 15px;
-  color: red;
+  color:#9fccc3;
   width: 100%;
 }
 .heading h2 {
@@ -189,26 +191,26 @@ a {
   padding: 16px;
   text-align: center;
   border-radius: 8px;
-  background-color: rgb(104, 216, 250);
+  background-color:#9fccc3;
 }
 .product-image img {
   width: 200px;
 }
-description {
-  color: white;
+.description {
+  color: #ffe5b6;
 }
 .btn {
   padding: 12px 24px;
-  color: red;
+  color: #9fccc3;
   opacity: 0.8;
   display: inline-block;
   border-radius: 4px;
   text-align: center;
 }
 .order {
-  background-color: blue;
+  background-color: #ffe5b6;
   border-radius: 50px;
-  color: red;
+  color: #9fccc3;
 }
 .clear {
   clear: left;
@@ -229,11 +231,11 @@ description {
   padding-bottom: 50px;
 }
 .section-title {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #9dd1ec;
   font-size: 28px;
   padding-top: 15px;
   padding-bottom: 15px;
-  color:blue;
+  color:#9fccc3;
   width: 100%;
 }
 .heading h2 {
@@ -251,7 +253,7 @@ message {
 }
 .btn {
   padding: 12px 24px;
-  color: black;
+  color: #9fccc3;
   opacity: 0.8;
   display: inline-block;
   border-radius: 4px;
@@ -263,7 +265,7 @@ input, textarea {
   margin-bottom: 30px;
   padding: 20px;
   font-size: 18px;
-  border: 1px solid #9dd1ec;
+  border: 1px solid #fc6467];
   display: inline-block;
 }
 
@@ -280,12 +282,10 @@ footer {
   margin: 0 auto;
 }
 .logo {
-  width: 160px;
-  margin-top: 20px;
+  width: 80px;
+  margin-top: 0,5px;
 }
-footer img {
-  width: 125px;
-}
+
 footer p {
   color: #b3aeb5;
   font-size: 12px;
@@ -294,9 +294,18 @@ p {
   font-family: sans-serif;
   letter-spacing: 0.5px;
 }
+
 footer {
   text-align: center;
-  background-image: url(turbo-movie-turbo-and-the-racing-snails.jpg);
+  background-color:#fc6467;
   background-size: cover;
 }
+footer h2{
+  font-size: 18px;
+}
 
+.container1 img {
+  width: 100px;
+  padding-top: 0px;
+  
+}
